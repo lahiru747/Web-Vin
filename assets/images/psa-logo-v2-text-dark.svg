@@ -1,0 +1,47 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGradientDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e6f3ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a4c639;stop-opacity:1" />
+    </linearGradient>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textShadowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rectangle for better contrast -->
+  <rect x="10" y="5" width="380" height="90" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.2)" stroke-width="1" rx="10"/>
+  
+  <!-- Main company name with enhanced visibility -->
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        fill="url(#textGradientDark)" text-anchor="middle" filter="url(#textGlow)" stroke="#000000" stroke-width="0.5">PROTECTION SYSTEMS</text>
+  
+  <!-- Australia text with white base -->
+  <text x="200" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="bold" 
+        fill="#ffffff" text-anchor="middle" filter="url(#textShadowDark)" stroke="#a4c639" stroke-width="1">AUSTRALIA</text>
+  
+  <!-- Tagline with better contrast -->
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="normal" 
+        fill="#e6f3ff" text-anchor="middle" font-style="italic" stroke="#000000" stroke-width="0.3">Renewable Energy Protection Solutions</text>
+  
+  <!-- Enhanced decorative elements -->
+  <g opacity="0.6">
+    <!-- Left accent with glow -->
+    <line x1="20" y1="20" x2="40" y2="20" stroke="#ffffff" stroke-width="3" filter="url(#textGlow)"/>
+    <line x1="20" y1="25" x2="35" y2="25" stroke="#a4c639" stroke-width="2" filter="url(#textGlow)"/>
+    <line x1="20" y1="30" x2="30" y2="30" stroke="#ffffff" stroke-width="1.5" filter="url(#textGlow)"/>
+    
+    <!-- Right accent with glow -->
+    <line x1="360" y1="20" x2="380" y2="20" stroke="#ffffff" stroke-width="3" filter="url(#textGlow)"/>
+    <line x1="365" y1="25" x2="380" y2="25" stroke="#a4c639" stroke-width="2" filter="url(#textGlow)"/>
+    <line x1="370" y1="30" x2="380" y2="30" stroke="#ffffff" stroke-width="1.5" filter="url(#textGlow)"/>
+  </g>
+</svg>

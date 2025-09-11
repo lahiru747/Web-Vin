@@ -1,0 +1,84 @@
+<svg viewBox="0 10 220 38" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <!-- Premium black gradient for background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+    
+    <!-- Green gradient simplified -->
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8FD14F"/>
+      <stop offset="100%" style="stop-color:#6BC023"/>
+    </linearGradient>
+    
+    <!-- Bright green solid for icon -->
+    <linearGradient id="brightGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8FD14F"/>
+      <stop offset="100%" style="stop-color:#6BC023"/>
+    </linearGradient>
+    
+    <!-- Simple drop shadow -->
+    <filter id="dropShadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Main background - simplified -->
+  <rect x="2" y="2" width="200" height="57" rx="10" ry="0" fill="url(#bgGradient)" stroke="url(#greenGradient)" stroke-width="0"/>
+  
+  <!-- Left side: Simplified shield icon -->
+  <g transform="translate(28, 28)">
+    <!-- Hexagon container - simplified -->
+    <path d="M 0,-12 L 10,-6 L 10,6 L 0,12 L -10,6 L -10,-6 Z" 
+          fill="#1a1a1a" 
+          stroke="url(#greenGradient)" 
+          stroke-width="1.5"/>
+    
+    <!-- Simple shield with lock -->
+    <g transform="scale(0.7)">
+      <!-- Shield shape -->
+      <path d="M 0,-10 C -6,-10 -8,-8 -8,-4 L -8,4 C -8,7 -5,9 0,11 C 5,9 8,7 8,4 L 8,-4 C 8,-8 6,-10 0,-10 Z" 
+            fill="#2a2a2a" 
+            stroke="url(#brightGreen)" 
+            stroke-width="1.5"/>
+      
+      <!-- Simple lock icon -->
+      <rect x="-3" y="-1" width="6" height="5" rx="0.5" fill="url(#brightGreen)"/>
+      <path d="M -2.5,-1 L -2.5,-3.5 C -2.5,-5.5 -1,-6.5 0,-6.5 C 1,-6.5 2.5,-5.5 2.5,-3.5 L 2.5,-1" 
+            fill="none" 
+            stroke="url(#brightGreen)" 
+            stroke-width="1"
+            stroke-linecap="round"/>
+      <!-- Keyhole -->
+      <circle cx="0" cy="1.5" r="1" fill="#1a1a1a"/>
+    </g>
+  </g>
+  
+  <!-- Text content - optimized for small size -->
+  <g>
+    <!-- Main Title - single line, smaller -->
+    <text x="58" y="25" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" letter-spacing="0.5">
+      PROTECTION SYSTEMS
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="58" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="url(#greenGradient)" letter-spacing="0.5">
+      AUSTRALIA
+    </text>
+    
+    <!-- Tagline - smaller, simpler -->
+    <text x="58" y="53" font-family="Arial, sans-serif" font-size="7" fill="#ffffffff">
+      Advanced Energy Protection
+    </text>
+  </g>
+  
+  <!-- Minimal corner accents -->
+  <g opacity="0.4">
+    <!-- Top right -->
+    <path d="M 228,8 L 232,8 L 232,12" fill="none" stroke="url(#greenGradient)" stroke-width="0.5"/>
+    <!-- Bottom right -->
+    <path d="M 232,48 L 232,52 L 228,52" fill="none" stroke="url(#greenGradient)" stroke-width="0.5"/>
+  </g>
+</svg>

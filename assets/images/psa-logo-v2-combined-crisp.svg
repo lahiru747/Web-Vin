@@ -1,0 +1,81 @@
+<svg width="450" height="100" viewBox="0 0 450 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradientCrisp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a4c639;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Clean background for maximum contrast -->
+  <rect x="5" y="5" width="440" height="90" fill="rgba(0,0,0,0.7)" stroke="#ffffff" stroke-width="2" rx="15"/>
+  
+  <!-- Logo Icon (left side) with enhanced clarity -->
+  <g transform="translate(50, 50)">
+    <!-- Outer protective ring - clean and sharp -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#a4c639" stroke-width="2.5"/>
+    
+    <!-- Background circle for contrast -->
+    <circle cx="0" cy="0" r="35" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+    
+    <!-- Main shield background - sharp and clear -->
+    <path d="M0 -30 L22 -23 L22 -3 L0 15 L-22 -3 L-22 -23 Z" fill="url(#shieldGradientCrisp)" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Inner shield for depth - clean lines -->
+    <path d="M0 -26 L18 -20 L18 -2 L0 12 L-18 -2 L-18 -20 Z" fill="none" stroke="#000000" stroke-width="1.5"/>
+    
+    <!-- Renewable energy symbol - clearly defined wind turbine -->
+    <g transform="translate(0, -8)">
+      <!-- Wind turbine blades - sharp and distinct with better visibility -->
+      <path d="M0 -6 L-4 3 L4 3 Z" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+      <path d="M0 -6 L4 3 L0 6 L-4 3 Z" fill="#a4c639" stroke="#000000" stroke-width="1.2"/>
+      <path d="M0 -6 L0 6 L-4 3 Z" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+      
+      <!-- Central hub - clearly defined -->
+      <circle cx="0" cy="0" r="1.5" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+    </g>
+    
+    <!-- Electrical protection elements - sharp and visible -->
+    <g transform="translate(0, 13)">
+      <!-- Circuit protection symbol - clear definition -->
+      <rect x="-3" y="-1.5" width="6" height="3" fill="none" stroke="#000000" stroke-width="2.5" rx="0.5"/>
+      <rect x="-3" y="-1.5" width="6" height="3" fill="none" stroke="#ffffff" stroke-width="2" rx="0.5"/>
+      <line x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" stroke="#000000" stroke-width="2.5"/>
+      <line x1="1.5" y1="-1.5" x2="1.5" y2="1.5" stroke="#000000" stroke-width="2.5"/>
+      
+      <!-- Connection points - clearly visible -->
+      <circle cx="-4.5" cy="0" r="1.2" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+      <circle cx="4.5" cy="0" r="1.2" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+      <line x1="-3.3" y1="0" x2="-3" y2="0" stroke="#000000" stroke-width="2.5"/>
+      <line x1="3" y1="0" x2="3.3" y2="0" stroke="#000000" stroke-width="2.5"/>
+    </g>
+    
+    <!-- Australian identity element - Southern Cross - clearly defined -->
+    <g transform="translate(0, -22)">
+      <circle cx="-6" cy="-2" r="1" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+      <circle cx="-4" cy="-1" r="0.8" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+      <circle cx="4" cy="1" r="0.8" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+      <circle cx="6" cy="2" r="1" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+      <circle cx="4.5" cy="-1.5" r="0.6" fill="#000000" stroke="#ffffff" stroke-width="1.2"/>
+    </g>
+  </g>
+  
+  <!-- Company Text (right side) - CRISP and clear with NO blur effects -->
+  <g transform="translate(120, 0)">
+    <!-- Main company name - PURE WHITE, no gradients, no blur -->
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+          fill="#ffffff" stroke="#000000" stroke-width="1">PROTECTION SYSTEMS</text>
+    
+    <!-- Australia text - BRIGHT GREEN, no blur -->
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="bold" 
+          fill="#a4c639" stroke="#000000" stroke-width="1.5">AUSTRALIA</text>
+    
+    <!-- Tagline - BRIGHT WHITE, larger font, no blur -->
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" 
+          fill="#ffffff" font-style="italic" stroke="#000000" stroke-width="0.8">Renewable Energy Protection Solutions</text>
+  </g>
+  
+  <!-- Clean connecting line -->
+  <line x1="100" y1="50" x2="120" y2="50" stroke="#ffffff" stroke-width="3"/>
+  <line x1="100" y1="50" x2="120" y2="50" stroke="#a4c639" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="350" height="75" viewBox="0 0 350 75" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient effect -->
+  <circle cx="40" cy="37" r="30" fill="#1e3a8a" stroke="#ffd700" stroke-width="2"/>
+  
+  <!-- Inner circle for depth -->
+  <circle cx="40" cy="37" r="25" fill="#3b82f6" stroke="#32cd32" stroke-width="1.5"/>
+  
+  <!-- Shield shape with modern design -->
+  <path d="M40 15 L52 20 L52 35 L40 50 L28 35 L28 20 Z" fill="#ffd700" stroke="#1e3a8a" stroke-width="1"/>
+  
+  <!-- Lightning bolt with better design -->
+  <path d="M40 25 L35 35 L42 35 L38 45 L45 35 L40 35 Z" fill="#1e3a8a"/>
+  
+  <!-- Modern circuit elements -->
+  <rect x="32" y="28" width="3" height="3" fill="#32cd32" rx="1"/>
+  <rect x="45" y="28" width="3" height="3" fill="#32cd32" rx="1"/>
+  <rect x="32" y="42" width="3" height="3" fill="#32cd32" rx="1"/>
+  <rect x="45" y="42" width="3" height="3" fill="#32cd32" rx="1"/>
+  
+  <!-- Connection lines -->
+  <line x1="35" y1="29.5" x2="40" y2="29.5" stroke="#32cd32" stroke-width="1"/>
+  <line x1="40" y1="29.5" x2="45" y2="29.5" stroke="#32cd32" stroke-width="1"/>
+  <line x1="35" y1="43.5" x2="40" y2="43.5" stroke="#32cd32" stroke-width="1"/>
+  <line x1="40" y1="43.5" x2="45" y2="43.5" stroke="#32cd32" stroke-width="1"/>
+  
+  <!-- Company name with green PROTECTION SYSTEMS -->
+  <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#32cd32" stroke="#ffd700" stroke-width="1">PROTECTION SYSTEMS</text>
+  <text x="90" y="55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a" stroke="#ffd700" stroke-width="1">AUSTRALIA</text>
+</svg>
+

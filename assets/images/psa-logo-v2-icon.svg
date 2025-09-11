@@ -1,0 +1,56 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer protective ring -->
+  <circle cx="40" cy="40" r="38" fill="none" stroke="#a4c639" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Main shield background with gradient -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a4c639;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32cd32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield shape representing protection -->
+  <path d="M40 8 L55 15 L55 35 L40 55 L25 35 L25 15 Z" fill="url(#shieldGradient)" stroke="#a4c639" stroke-width="2"/>
+  
+  <!-- Inner shield for depth -->
+  <path d="M40 12 L50 17 L50 32 L40 48 L30 32 L30 17 Z" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Renewable energy symbol (wind/solar hybrid) -->
+  <g transform="translate(40, 30)">
+    <!-- Wind turbine blades -->
+    <path d="M0 -8 L-6 4 L6 4 Z" fill="url(#energyGradient)" opacity="0.9"/>
+    <path d="M0 -8 L6 4 L0 8 L-6 4 Z" fill="url(#energyGradient)" opacity="0.7"/>
+    <path d="M0 -8 L0 8 L-6 4 Z" fill="url(#energyGradient)" opacity="0.5"/>
+    
+    <!-- Central hub -->
+    <circle cx="0" cy="0" r="2" fill="#ffffff"/>
+  </g>
+  
+  <!-- Electrical protection elements -->
+  <g transform="translate(40, 45)">
+    <!-- Circuit protection symbol -->
+    <rect x="-4" y="-2" width="8" height="4" fill="none" stroke="#a4c639" stroke-width="1.5" rx="1"/>
+    <line x1="-2" y1="-2" x2="-2" y2="2" stroke="#a4c639" stroke-width="1.5"/>
+    <line x1="2" y1="-2" x2="2" y2="2" stroke="#a4c639" stroke-width="1.5"/>
+    
+    <!-- Connection points -->
+    <circle cx="-6" cy="0" r="1" fill="#a4c639"/>
+    <circle cx="6" cy="0" r="1" fill="#a4c639"/>
+    <line x1="-5" y1="0" x2="-4" y2="0" stroke="#a4c639" stroke-width="1"/>
+    <line x1="4" y1="0" x2="5" y2="0" stroke="#a4c639" stroke-width="1"/>
+  </g>
+  
+  <!-- Australian identity element (Southern Cross constellation) -->
+  <g transform="translate(40, 20)" opacity="0.6">
+    <circle cx="-8" cy="-3" r="0.8" fill="#a4c639"/>
+    <circle cx="-4" cy="-1" r="0.6" fill="#a4c639"/>
+    <circle cx="4" cy="1" r="0.6" fill="#a4c639"/>
+    <circle cx="8" cy="3" r="0.8" fill="#a4c639"/>
+    <circle cx="6" cy="-2" r="0.4" fill="#a4c639"/>
+  </g>
+</svg>

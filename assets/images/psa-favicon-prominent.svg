@@ -1,0 +1,72 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Light green gradient for better visibility -->
+    <linearGradient id="lightGreenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E994"/>
+      <stop offset="50%" style="stop-color:#8FD14F"/>
+      <stop offset="100%" style="stop-color:#6BC023"/>
+    </linearGradient>
+    
+    <!-- Bright white gradient -->
+    <linearGradient id="whiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f8f9fa"/>
+    </linearGradient>
+    
+    <!-- Light background gradient -->
+    <linearGradient id="lightBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Light background for better contrast -->
+  <rect x="2" y="2" width="28" height="28" rx="6" ry="6" fill="url(#lightBgGradient)" stroke="url(#lightGreenGradient)" stroke-width="2"/>
+  
+  <!-- Centered shield container -->
+  <g transform="translate(16, 16)">
+    <!-- Hexagonal shield background with light colors -->
+    <path d="M 0,-12 L 10,-6 L 10,6 L 0,12 L -10,6 L -10,-6 Z" 
+          fill="url(#whiteGradient)" 
+          stroke="url(#lightGreenGradient)" 
+          stroke-width="2"/>
+    
+    <!-- Inner hexagon border -->
+    <path d="M 0,-10 L 8,-5 L 8,5 L 0,10 L -8,5 L -8,-5 Z" 
+          fill="none" 
+          stroke="url(#lightGreenGradient)" 
+          stroke-width="1.5"
+          opacity="0.7"/>
+    
+    <!-- Shield icon with light colors -->
+    <g transform="scale(0.8)">
+      <!-- Main shield shape -->
+      <path d="M 0,-8 C -5,-8 -7,-6 -7,-3 L -7,3 C -7,6 -4,8 0,9 C 4,8 7,6 7,3 L 7,-3 C 7,-6 5,-8 0,-8 Z" 
+            fill="url(#whiteGradient)" 
+            stroke="url(#lightGreenGradient)" 
+            stroke-width="2"/>
+      
+      <!-- Lock body with light green -->
+      <rect x="-3" y="-1" width="6" height="4" rx="0.5" fill="url(#lightGreenGradient)"/>
+      
+      <!-- Lock shackle -->
+      <path d="M -2,-1 L -2,-3 C -2,-5 -1,-6 0,-6 C 1,-6 2,-5 2,-3 L 2,-1" 
+            fill="none" 
+            stroke="url(#lightGreenGradient)" 
+            stroke-width="1.5"
+            stroke-linecap="round"/>
+      
+      <!-- Keyhole with light background -->
+      <circle cx="0" cy="1" r="1" fill="url(#lightBgGradient)"/>
+      <rect x="-0.5" y="1" width="1" height="2" fill="url(#lightBgGradient)"/>
+    </g>
+  </g>
+  
+  <!-- Subtle corner accents for prominence -->
+  <g opacity="0.6">
+    <circle cx="6" cy="6" r="1" fill="url(#lightGreenGradient)"/>
+    <circle cx="26" cy="6" r="1" fill="url(#lightGreenGradient)"/>
+    <circle cx="6" cy="26" r="1" fill="url(#lightGreenGradient)"/>
+    <circle cx="26" cy="26" r="1" fill="url(#lightGreenGradient)"/>
+  </g>
+</svg>
