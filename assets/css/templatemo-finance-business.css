@@ -1336,4 +1336,18 @@ footer .contact-form button.filled-button:hover {
 		color: #a4c639!important;
 		border-bottom: none!important;
 	}
+	/* Ensure even spacing for mobile menu items */
+	.navbar .navbar-nav .nav-item {
+		min-height: 50px;
+		display: flex;
+		align-items: center;
+	}
+	.navbar .navbar-nav a.nav-link {
+		white-space: nowrap;
+		text-align: left;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		min-height: 50px;
+	}
 }
