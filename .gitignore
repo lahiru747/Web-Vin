@@ -1,0 +1,39 @@
+# Ignore large image files
+assets/images/*.jpg
+assets/images/*.png
+!assets/images/favicon.png
+
+# Ignore font files
+assets/fonts/*.woff
+assets/fonts/*.woff2
+assets/fonts/*.ttf
+assets/fonts/*.eot
+assets/fonts/*.otf
+
+# Keep only SVG versions
+!assets/fonts/*.svg
+!assets/images/*.svg
+
+# Ignore vendor files
+vendor/
+
+# Keep important documentation and config files
+!.htaccess
+!*.md
+!*.html
+!*.css
+!*.js
+!*.php
+!*.xml
+!*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
