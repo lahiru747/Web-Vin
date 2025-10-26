@@ -176,3 +176,4 @@ The `.htaccess` file now ensures:
 5. **Faster performance** with caching and compression
 
 Your website is now properly configured to prevent duplicate content issues and improve search engine rankings! 🎉
+
